@@ -1,7 +1,7 @@
 ## MAHABALI 
 (since during kerala floods, people were not able to celebrate [Onam](https://en.wikipedia.org/wiki/Onam) in which it is believed that [Mahabali](https://en.wikipedia.org/wiki/Onam#Mahabali_legend) comes from heaven and thus the name of our project is Mahabali)
 
-##### Challenge for Microsoft's codefundo++ to predict or manage natural disasters.
+#### Challenge for Microsoft's codefundo++ to predict or manage natural disasters.
 Our main focus while ideation has been [Kerala Floods 2018](https://en.wikipedia.org/wiki/2018_Kerala_floods).
 We plan to develop Jarvis which does all work from A-Z in such situations.\
 The system will be able to:
