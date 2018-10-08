@@ -1,5 +1,5 @@
 ### Challenge for Microsoft's codefundo++: To predict or manage natural disasters.
-#### Stay calm, work under-construction
+
 # Mahabali
 (since during kerala floods, people were not able to celebrate [Onam](https://en.wikipedia.org/wiki/Onam) in which it is believed that [Mahabali](https://en.wikipedia.org/wiki/Onam#Mahabali_legend) comes from heaven and thus the name of our project is Mahabali)
 
