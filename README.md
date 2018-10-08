@@ -64,4 +64,4 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 > we can use antennas and other popular methods to exchange data between drones and server without internet connection such as [these](https://support.dronedeploy.com/v1/docs/flying-offline).
 
 2. How do the server find the optimal path?
-> We're yet to prpose the exact algorithm but we have planned to compare the images of area, compare the flood levels (which will be estimated from satellite images of that area) and estimate the changes and predict the safest route to the nearest safest zone .
+> We're yet to prpose the exact algorithm but we have planned to compare the images of area, compare the flood levels (which will be estimated from satellite images of that area) and estimate the changes and predict the safest route to the nearest safest zone.
