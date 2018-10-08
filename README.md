@@ -4,11 +4,11 @@
 (since during kerala floods, people were not able to celebrate [Onam](https://en.wikipedia.org/wiki/Onam) in which it is believed that [Mahabali](https://en.wikipedia.org/wiki/Onam#Mahabali_legend) comes from heaven and thus the name of our project is Mahabali)
 
 ### Table of Contents
-1.
-2.
-3.
-4. 
-5. 
+1. [Objective](https://github.com/lavishsaluja/codefundo#objective)
+2. [Challenges faced during Kerala Floods and how Mahabali overcomes them](https://github.com/lavishsaluja/codefundo#challenges-faced-during-kerala-floods-and-how-mahabali-overcomes-them)
+3. [How Mahabali works?](https://github.com/lavishsaluja/codefundo#how-mahabali-works)
+4. [Technologies Used](https://github.com/lavishsaluja/codefundo#technologies-used)
+5. [FAQs](https://github.com/lavishsaluja/codefundo#faqs)
 
 ### Objective
 Our main focus while ideation has been [Kerala Floods 2018](https://en.wikipedia.org/wiki/2018_Kerala_floods).
