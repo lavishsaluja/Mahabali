@@ -83,7 +83,7 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 > we can use antennas and other popular methods to exchange data between drones and server without internet connection such as [these](https://support.dronedeploy.com/v1/docs/flying-offline).
 
 2. How will thermal imaging works?
-There are many research papers that show one can detect people with a moving thermal imaging camera like [these](https://ieeexplore.ieee.org/document/6909985). (Note that this is IEEE research publication and you'll need some subscription to view it, we accesed it using BITS internet)
+> There are many research papers that show one can detect people with a moving thermal imaging camera like [these](https://ieeexplore.ieee.org/document/6909985). (Note that this is IEEE research publication and you'll need some subscription to view it, we accesed it using BITS internet)
 ![Thermal Imaging](https://github.com/lavishsaluja/codefundo/blob/master/Thermal-4.gif)
 
 3. How do the server find the optimal path?
