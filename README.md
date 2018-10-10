@@ -2,8 +2,8 @@
 
 ### To-do?
 - [ ] Citation needed at a place
-- [ ] Image
-- [ ] Wikipedia gifs of kerala floods.
+- [x] Add all Images
+- [x] Wikipedia gifs of kerala floods.
 - [x] Write-up
 - [ ] Technologies listing
 
