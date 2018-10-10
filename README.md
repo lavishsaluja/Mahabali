@@ -43,6 +43,10 @@ The system will be able to:
 ### How Mahabali works?
 Mahabali is a complete system which uses drones, thermal imaging, real-time satellite imagery and an intelligent server-side architecture for bringing about an automated search and rescue assistant. Presently it is directed mainly for flood rescue operations but later may be scaled to become an advanced search and rescue technology which would be applicable for various disasters.
 
+![Kerala before flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaAfterFlood.jpg)
+
+![Kerala after flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaBeforeFlood.jpg)
+
 1. Drones will be sent out for surveying different flood-hit areas. These drones will have thermal imaging cameras integrated with them which would be used to spot people on the ground. The drone will also be fitted with a visual camera for getting a complete visual picture as well as for facial detection which will be used for identifying missing people. 
 	- Drone-based systems offer some advantages over helicopters, including ease of deployment,  the ability to fly in tighter quarters, no requirement of trained operators, and lower operating costs. A simple listing of all the benefits of using a drone over helicopters can be found [here](http://www.ta-survey.nl/page.php?id=313&lang=EN)
 	- Thermal imaging has an edge over visual imaging when it comes to spotting objects on the ground as it can see through physical obstacles like dust that may hinder a clear view of the complete field of view of the drone. A nice article which explains the benefits of thermal imaging can be found [here](https://www.photonics.com/Articles/Thermal_Camera-Equipped_UAVs_Spot_Hard-to-Find/a63435). Also, a paper describing object detection using thermal imaging can be found [here](http://ijesc.org/upload/66a2285a62996f25fd654b0ca39cd92a.Object%20Identification%20using%20Thermal%20Image%20Processing.pdf), which will be used to identify humans from air.
@@ -51,6 +55,8 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 2. Real-time satellite images will be used for gathering information about the conditions around the flood-hit areas. 
 	- These images will be used to map several parameters like the depth of the floods, physical barriers, flooded routes etc. A detailed analysis of the applications of Remote Sensing and GIS in flood management can be found in [this paper](https://www.researchgate.net/publication/230660751_Remote_sensing_and_GIS_Applications_in_Flood_Management)
 	- Real-time images would help to develop a situation-aware algorithm as differences between images of the same area would be useful for estimating on-ground changes required for predicting the path to be taken so as to reach the nearest safety zone. [*citation needed*].
+
+![Week by week departure from normal](https://github.com/lavishsaluja/codefundo/blob/master/RainfallKerala.png)
 
 3. A server side architecture which would be the brain of all the operations. This would be connected to the drones and the satellite(s) which supply real-time images based on which it would determine the outputs.
 	- The server would montior the path taken by the drone. This would be used for handling the navigation of the drone without the requirement of a human controller.
