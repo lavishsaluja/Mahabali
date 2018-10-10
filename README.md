@@ -62,10 +62,10 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 	- In case a safe path cannot be identified, the nearest rescue group(s) would be notified of the location so that they may manually attempt a rescue operation, by performing an air-lift, for example.
 	- There would be a Person Finder portal in place in which the images along with other necessary details on missing people could be added by people who need to report a missing person. The visual camera of the survey drones will be used for capturing images of the face of people who were identified by thermal imaging above. The server would then run a face detection algorithm to compare the face of that person with the database of missing people reported in the Person Finder portal. We can use **Microsoft** Azure [Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/) to recognize the people in database.
 
-###### Image uploaded before flood by NASA
+#### Image uploaded before flood by NASA
 ![Kerala after flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaBeforeFlood.jpg)
 
-###### Image uploaded After flood by NASA
+#### Image uploaded After flood by NASA
 ![Kerala before flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaAfterFlood.jpg)
 
 ### Technologies Used
