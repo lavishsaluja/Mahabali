@@ -48,6 +48,10 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 	- Thermal imaging has an edge over visual imaging when it comes to spotting objects on the ground as it can see through physical obstacles like dust that may hinder a clear view of the complete field of view of the drone. A nice article which explains the benefits of thermal imaging can be found [here](https://www.photonics.com/Articles/Thermal_Camera-Equipped_UAVs_Spot_Hard-to-Find/a63435). Also, a paper describing object detection using thermal imaging can be found [here](http://ijesc.org/upload/66a2285a62996f25fd654b0ca39cd92a.Object%20Identification%20using%20Thermal%20Image%20Processing.pdf), which will be used to identify humans from air.
 	- The visual cameras will gather colour images which would give a physical view of the area being surveyed. It will also be used for capturing images faces of the people which will be used for identifying missing people.
 
+> This is how drones will be using thermal imaging to detect the prescence of people during flood or other disasters
+
+![Thermal imaging to detect people](https://github.com/lavishsaluja/codefundo/blob/master/Thermal-1.png)
+
 2. Real-time satellite images will be used for gathering information about the conditions around the flood-hit areas. 
 	- These images will be used to map several parameters like the depth of the floods, physical barriers, flooded routes etc. A detailed analysis of the applications of Remote Sensing and GIS in flood management can be found in [this paper](https://www.researchgate.net/publication/230660751_Remote_sensing_and_GIS_Applications_in_Flood_Management)
 	- Real-time images would help to develop a situation-aware algorithm as differences between images of the same area would be useful for estimating on-ground changes required for predicting the path to be taken so as to reach the nearest safety zone. [*citation needed*].
@@ -78,5 +82,9 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 1. How will drones send the data to servers without Internet connection in floods?
 > we can use antennas and other popular methods to exchange data between drones and server without internet connection such as [these](https://support.dronedeploy.com/v1/docs/flying-offline).
 
-2. How do the server find the optimal path?
+2. How will thermal imaging works?
+There are many research papers that show one can detect people with a moving thermal imaging camera like [these](https://ieeexplore.ieee.org/document/6909985). (Note that this is IEEE research publication and you'll need some subscription to view it, we accesed it using BITS internet)
+> Also, there are many people 
+
+3. How do the server find the optimal path?
 > We're yet to prpose the exact algorithm but we have planned to compare the images of area, compare the flood levels (which will be estimated from satellite images of that area) and estimate the changes and predict the safest route to the nearest safest zone.
