@@ -2,6 +2,7 @@
 
 # Mahabali
 (since during kerala floods, people were not able to celebrate [Onam](https://en.wikipedia.org/wiki/Onam) in which it is believed that [Mahabali](https://en.wikipedia.org/wiki/Onam#Mahabali_legend) comes from heaven and thus the name of our project is Mahabali)
+> Mahabali is a complete system which uses drones, thermal imaging, real-time satellite imagery and an intelligent server-side architecture for bringing about an automated search and rescue assistant. Presently it is directed mainly for flood rescue operations but later may be scaled to become an advanced search and rescue technology which would be applicable for various disasters.
 
 ### Table of Contents
 1. [Objective](https://github.com/lavishsaluja/codefundo#objective)
@@ -34,7 +35,6 @@ The system will be able to:
 > Drones will return the location to our server which will use a **situation-aware** algorithm and find the most optimal path to travel from that location to the nearest safe zone.
 
 ### How Mahabali works?
-Mahabali is a complete system which uses drones, thermal imaging, real-time satellite imagery and an intelligent server-side architecture for bringing about an automated search and rescue assistant. Presently it is directed mainly for flood rescue operations but later may be scaled to become an advanced search and rescue technology which would be applicable for various disasters.
 
 1. Drones will be sent out for surveying different flood-hit areas. These drones will have thermal imaging cameras integrated with them which would be used to spot people on the ground. The drone will also be fitted with a visual camera for getting a complete visual picture as well as for facial detection which will be used for identifying missing people. 
 	- Drone-based systems offer some advantages over helicopters, including ease of deployment,  the ability to fly in tighter quarters, no requirement of trained operators, and lower operating costs. A simple listing of all the benefits of using a drone over helicopters can be found [here](http://www.ta-survey.nl/page.php?id=313&lang=EN)
