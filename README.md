@@ -66,7 +66,7 @@ The system will be able to:
 ![Kerala before flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaAfterFlood.jpg)
 
 ### Technologies Used
-1. UAVs - Drone DIY kits compatible with Raspberry Pi: (Erle Copter DIY Kit)[https://erlerobotics.com/blog/product/erle-copter-diy-kit/] or similar
+1. UAVs - Drone DIY kits compatible with Raspberry Pi: For example, (Erle Copter DIY Kit)[https://erlerobotics.com/blog/product/erle-copter-diy-kit/[https://erlerobotics.com/blog/product/erle-copter-diy-kit/]
 2. Dual sensor Thermal imaging and color camera: For example, (FLIR 0100-01-00S Duo Dual Sensor Drone Thermal and Color HD Camera)[https://www.amazon.com/Remote-Control-Systems-Flir436-0100-01-00S-Cameras/dp/B01MU9RLXO/ref=as_li_ss_tl?linkCode=sl1&slotNum=1&linkId=85a45a82c82e65b63e85e1072c2bd76a&keywords=flir+duo+drone+camera&imprToken=JB4sAnDCJ3zlzNqxR9gJNA&tag=dglobe_guide-20&ie=UTF8&qid=1498214485&sr=8-1]
 3. (Required if 2 cannot be met) Thermal imaging camera for drones: For example, (FLIR 436-0014-00 Vue Pro, 336, 9mm 30Hz)[https://www.amazon.com/Flir-436-0014-00-Vue-30Hz-Black/dp/B01BFMFPLU]
 4. (Required if 2 cannot be met) Visual camera for drones: For example, (DBPOWER Waterproof Action Camera 12MP 1080P)[https://www.amazon.in/DBPOWER-Waterproof-Action-Batteries-Accessories/dp/B00JFMT1RM]
