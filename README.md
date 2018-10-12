@@ -47,13 +47,13 @@ The system will be able to:
 
 2. Real-time satellite images will be used for gathering information about the conditions around the flood-hit areas. 
 	- These images will be used to map several parameters like the depth of the floods, physical barriers, flooded routes etc. A detailed analysis of the applications of Remote Sensing and GIS in flood management can be found in [this paper](https://www.researchgate.net/publication/230660751_Remote_sensing_and_GIS_Applications_in_Flood_Management)
-	- Real-time images would help to develop a situation-aware algorithm as differences between images of the same area would be useful for estimating on-ground changes required for predicting the path to be taken so as to reach the nearest safety zone. [*citation needed*].
+	- Real-time images would help to develop a situation-aware algorithm as differences between images of the same area would be useful for estimating on-ground changes required for predicting the path to be taken so as to reach the nearest safety zone. Although this is not a complete explanation, [this paper](https://www.sciencedirect.com/science/article/pii/S0022169415001031) gives some insight on near-real-time estimation of water levels.
 
 ![Week by week departure from normal](https://github.com/lavishsaluja/codefundo/blob/master/RainfallKerala.png)
 
 3. A server side architecture which would be the brain of all the operations. This would be connected to the drones and the satellite(s) which supply real-time images based on which it would determine the outputs.
 	- The server would montior the path taken by the drone. This would be used for handling the navigation of the drone without the requirement of a human controller.
-	- The server would run an object detection algorithm on the images sent to it by the thermal camera of the drone. This algorithm would be used to identify any humans that may occur in the images. From this, as well as the coordinates of the drone from there the image was taken, the server would be able to identify any standed people who need assistance.
+	- The server would run an object detection algorithm on the images sent to it by the thermal camera of the drone. This algorithm would be used to identify any humans that may occur in the images. A technique similar to [this](https://medium.com/nanonets/how-we-flew-a-drone-to-monitor-construction-projects-in-africa-using-deep-learning-b792f5c9c471) could also be employed for detection of humans. From this, as well as the coordinates of the drone from there the image was taken, the server would be able to identify any standed people who need assistance.
 	- There would be a situation-aware algorithm which would run on the real-time satellite images of the area where the person was identified which would be used to find the safest on-ground path from the location of that person/group of people to the nearest known safe-zone.
 	- A drone would be sent to that person to guide him to safety using the safe path identified above.
 	- In case a safe path cannot be identified, the nearest rescue group(s) would be notified of the location so that they may manually attempt a rescue operation, by performing an air-lift, for example.
@@ -66,10 +66,12 @@ The system will be able to:
 ![Kerala before flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaAfterFlood.jpg)
 
 ### Technologies Used
-1. UAVs
-2. Thermal imaging camera
-3. Visual imaging camera
-4. 
+1. UAVs - Drone DIY kits compatible with Raspberry Pi: For example, [Erle Copter DIY Kit](https://erlerobotics.com/blog/product/erle-copter-diy-kit/[https://erlerobotics.com/blog/product/erle-copter-diy-kit/)
+2. Dual sensor Thermal imaging and color camera: For example, [FLIR 0100-01-00S Duo Dual Sensor Drone Thermal and Color HD Camera](https://www.amazon.com/Remote-Control-Systems-Flir436-0100-01-00S-Cameras/dp/B01MU9RLXO/ref=as_li_ss_tl?linkCode=sl1&slotNum=1&linkId=85a45a82c82e65b63e85e1072c2bd76a&keywords=flir+duo+drone+camera&imprToken=JB4sAnDCJ3zlzNqxR9gJNA&tag=dglobe_guide-20&ie=UTF8&qid=1498214485&sr=8-1)
+3. (Required if 2 cannot be met) Thermal imaging camera for drones: For example, [FLIR 436-0014-00 Vue Pro, 336, 9mm 30Hz](https://www.amazon.com/Flir-436-0014-00-Vue-30Hz-Black/dp/B01BFMFPLU)
+4. (Required if 2 cannot be met) Visual camera for drones: For example, [DBPOWER Waterproof Action Camera 12MP 1080P](https://www.amazon.in/DBPOWER-Waterproof-Action-Batteries-Accessories/dp/B00JFMT1RM)
+5. Raspberri Pi Zero and Shield: [Raspberri Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/) with [PXMini Open Autopilot Shield for Raspberry Pi Zero](https://erlerobotics.com/blog/pxfmini-open-autopilot-shield-for-raspberry-pi-zero/). 
+
 
 ### FAQs
 1. How will drones send the data to servers without Internet connection in floods?
