@@ -1,5 +1,12 @@
 ### Challenge for Microsoft's codefundo++: To predict or manage natural disasters.
-#### Stay calm, work under-construction
+
+### To-do?
+- [ ] Citation needed at a place
+- [x] Add all Images
+- [x] Wikipedia gifs of kerala floods.
+- [x] Write-up
+- [ ] Technologies listing
+
 # Mahabali
 (since during kerala floods, people were not able to celebrate [Onam](https://en.wikipedia.org/wiki/Onam) in which it is believed that [Mahabali](https://en.wikipedia.org/wiki/Onam#Mahabali_legend) comes from heaven and thus the name of our project is Mahabali)
 
@@ -41,9 +48,15 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 	- Thermal imaging has an edge over visual imaging when it comes to spotting objects on the ground as it can see through physical obstacles like dust that may hinder a clear view of the complete field of view of the drone. A nice article which explains the benefits of thermal imaging can be found [here](https://www.photonics.com/Articles/Thermal_Camera-Equipped_UAVs_Spot_Hard-to-Find/a63435). Also, a paper describing object detection using thermal imaging can be found [here](http://ijesc.org/upload/66a2285a62996f25fd654b0ca39cd92a.Object%20Identification%20using%20Thermal%20Image%20Processing.pdf), which will be used to identify humans from air.
 	- The visual cameras will gather colour images which would give a physical view of the area being surveyed. It will also be used for capturing images faces of the people which will be used for identifying missing people.
 
+> This is how drones will be using thermal imaging to detect the prescence of people during flood or other disasters
+
+![Thermal imaging to detect people](https://github.com/lavishsaluja/codefundo/blob/master/Thermal-1.png)
+
 2. Real-time satellite images will be used for gathering information about the conditions around the flood-hit areas. 
 	- These images will be used to map several parameters like the depth of the floods, physical barriers, flooded routes etc. A detailed analysis of the applications of Remote Sensing and GIS in flood management can be found in [this paper](https://www.researchgate.net/publication/230660751_Remote_sensing_and_GIS_Applications_in_Flood_Management)
 	- Real-time images would help to develop a situation-aware algorithm as differences between images of the same area would be useful for estimating on-ground changes required for predicting the path to be taken so as to reach the nearest safety zone. [*citation needed*].
+
+![Week by week departure from normal](https://github.com/lavishsaluja/codefundo/blob/master/RainfallKerala.png)
 
 3. A server side architecture which would be the brain of all the operations. This would be connected to the drones and the satellite(s) which supply real-time images based on which it would determine the outputs.
 	- The server would montior the path taken by the drone. This would be used for handling the navigation of the drone without the requirement of a human controller.
@@ -52,6 +65,12 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 	- A drone would be sent to that person to guide him to safety using the safe path identified above.
 	- In case a safe path cannot be identified, the nearest rescue group(s) would be notified of the location so that they may manually attempt a rescue operation, by performing an air-lift, for example.
 	- There would be a Person Finder portal in place in which the images along with other necessary details on missing people could be added by people who need to report a missing person. The visual camera of the survey drones will be used for capturing images of the face of people who were identified by thermal imaging above. The server would then run a face detection algorithm to compare the face of that person with the database of missing people reported in the Person Finder portal. We can use **Microsoft** Azure [Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/) to recognize the people in database.
+
+#### Image uploaded before flood by NASA
+![Kerala after flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaBeforeFlood.jpg)
+
+#### Image uploaded After flood by NASA
+![Kerala before flood, image by NASA](https://github.com/lavishsaluja/codefundo/blob/master/KeralaAfterFlood.jpg)
 
 ### Technologies Used
 1. UAVs
@@ -63,5 +82,9 @@ Mahabali is a complete system which uses drones, thermal imaging, real-time sate
 1. How will drones send the data to servers without Internet connection in floods?
 > we can use antennas and other popular methods to exchange data between drones and server without internet connection such as [these](https://support.dronedeploy.com/v1/docs/flying-offline).
 
-2. How do the server find the optimal path?
-> We're yet to prpose the exact algorithm but we have planned to compare the images of area, compare the flood levels (which will be estimated from satellite images of that area) and estimate the changes and predict the safest route to the nearest safest zone .
+2. How will thermal imaging works?
+> There are many research papers that show one can detect people with a moving thermal imaging camera like [these](https://ieeexplore.ieee.org/document/6909985). (Note that this is IEEE research publication and you'll need some subscription to view it, we accesed it using BITS internet)
+![Thermal Imaging](https://github.com/lavishsaluja/codefundo/blob/master/Thermal-4.gif)
+
+3. How do the server find the optimal path?
+> We're yet to prpose the exact algorithm but we have planned to compare the images of area, compare the flood levels (which will be estimated from satellite images of that area) and estimate the changes and predict the safest route to the nearest safest zone.
