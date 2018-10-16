@@ -4,7 +4,7 @@
 (since during kerala floods, people were not able to celebrate [Onam](https://en.wikipedia.org/wiki/Onam) in which it is believed that [Mahabali](https://en.wikipedia.org/wiki/Onam#Mahabali_legend) comes from heaven and thus the name of our project is Mahabali)
 > Mahabali is a complete system which uses drones, thermal imaging, real-time satellite imagery and an intelligent server-side architecture for bringing about an automated search and rescue assistant. Presently it is directed mainly for flood rescue operations but later may be scaled to become an advanced search and rescue technology which would be applicable for various disasters.
 
-### Table of Contents
+### Table of Contents (Updated)
 1. [Objective](https://github.com/lavishsaluja/codefundo#objective)
 2. [Challenges faced during Kerala Floods and how Mahabali overcomes them](https://github.com/lavishsaluja/codefundo#challenges-faced-during-kerala-floods-and-how-mahabali-overcomes-them)
 3. [How Mahabali works?](https://github.com/lavishsaluja/codefundo#how-mahabali-works)
