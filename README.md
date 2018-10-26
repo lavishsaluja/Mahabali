@@ -16,12 +16,12 @@ Our main focus while ideation has been [Indian dust storms 2018](https://en.wiki
 We plan to advance the rescue operations using technology and help people by providing help as fast as possible since more than 50 people out of the 215 died were because of slow operations after the storm and slow rescue of people who were in need.
 The system will comprise of:
 
-1. Mahabali App:
+1. **Mahabali App**:
   - The app will provide the users the real-time locations of active rescue teams around them (just like Uber app shows user the real time location of drivers).
   - Provide a functionality to place a request (like immediate rescue/medical help/food/ others).
   - The algorithm will automatically send a notification to the nearest active (not already booked) rescue team and provide them the real-time location of person that called for help.
 
-2. Mahabali Rescue Team App:
+2. **Mahabali Rescue Team App**:
   - The second app will only allow the authorized rescue teams to login.
   - The app will show rescue teams the real-time location of users who need help and have placed a request.
   - The app will send a notification and pair up the nearest rescue team to the person who place a request for help using Mahabali app.  
