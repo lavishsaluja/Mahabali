@@ -207,12 +207,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 switch (documentChange.getType()) {
                                     case ADDED:
                                         //show a request
-                                        Bundle args = new Bundle();
-                                        args.putString("UserID", userId);
-                                        args.putSerializable("UserLocation", userLocation);
-                                        requestDialog.setArguments(args);
-                                        requestDialog.show(getSupportFragmentManager(),
-                                                "RequestDialog");
+                                        if(getSupportFragmentManager()
+                                                .findFragmentByTag("RequestDialog") == null
+                                                && !requestDialog.isAdded()) {
+                                            Bundle args = new Bundle();
+                                            args.putString("UserID", userId);
+                                            args.putSerializable("UserLocation", userLocation);
+                                            requestDialog.setArguments(args);
+                                            requestDialog.show(getSupportFragmentManager(),
+                                                    "RequestDialog");
+                                        }
                                         break;
                                     case REMOVED:
                                         //close notification/dialog etc showing request
