@@ -5,7 +5,7 @@
 > Mahabali is a complete system which comprise of 2 android apps - MAhabali & Mahabali Rescue team (just like Uber & Uber-Driver apps)
 They use Google Maps API, real-time location tracking and an intelligent server-side architecture for bringing about an automated search and rescue assistant. Presently it is directed mainly for after - **geological** and **meteorological** rescue operations but later may be scaled to become an advanced search and rescue technology which would be applicable for various disasters.
 
-### Table of Contents (Updated)7
+### Table of Contents
 1. [Objective](https://github.com/lavishsaluja/codefundo#objective)
 2. [Challenges faced during Indian dust storms 2018 and how Mahabali overcomes them](https://github.com/lavishsaluja/codefundo#challenges-faced-during-kerala-floods-and-how-mahabali-overcomes-them)
 3. [How Mahabali works?](https://github.com/lavishsaluja/codefundo#how-mahabali-works)
