@@ -10,7 +10,6 @@ They use Google Maps API, real-time location tracking and an intelligent server-
 2. [Challenges faced during Indian dust storms 2018 and how Mahabali overcomes them](https://github.com/lavishsaluja/codefundo#challenges-faced-during-kerala-floods-and-how-mahabali-overcomes-them)
 3. [How Mahabali works?](https://github.com/lavishsaluja/codefundo#how-mahabali-works)
 4. [Technologies Used](https://github.com/lavishsaluja/codefundo#technologies-used)
-5. [FAQs](https://github.com/lavishsaluja/codefundo#faqs)w
 
 ### Objective
 Our main focus while ideation has been [Indian dust storms 2018](https://en.wikipedia.org/wiki/2018_Indian_dust_storms).
@@ -62,3 +61,4 @@ The system will comprise of:
 2. Azure SQL Database
 3. Azure Virtual Machine
 4. Google maps API
+5. Firebase Authentication
