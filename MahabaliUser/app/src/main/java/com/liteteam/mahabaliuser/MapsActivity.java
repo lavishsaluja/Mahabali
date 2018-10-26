@@ -264,6 +264,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             userLocationCollectionsRef.document(firebaseUser.getUid()).delete();
         }
         setUserAsFree();
+        removeEngagedTeamId();
         super.onUserLeaveHint();
     }
 
@@ -585,6 +586,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     });
         }
     }
+
+
 
     /**
      * Method to post a request to the database
