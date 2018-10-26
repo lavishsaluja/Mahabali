@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mahabali Rescue Team</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_play_services_error_dialog_cancelled">The app won\'t work unless Google Play Services is installed correctly</string>
+    <string name="settings_change_cancelled">The app won\'t work properly unless the settings are changed</string>
+    <string name="no_internet_message">Unable to connect to the internet. Please check your internet connection</string>
+    <string name="unknown_error">An unknown error occurred. Please try again</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="status" translatable="false">Status</string>
+    <string name="user_id">User_ID</string>
+    <string name="complete_text">Complete</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="rescue_request">Somebody has sent a request for help.</string>
+    <string name="confirm">Confirm</string>
+    <string name="reject">Reject</string>
+</resources>
