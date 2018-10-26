@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Mahabali</string>
     <string name="title_activity_maps">Map</string>
+    <string name="google_play_services_error_dialog_cancelled">The app won\'t work unless Google Play Services is installed correctly</string>
+    <string name="settings_change_cancelled">The app won\'t work properly unless the settings are changed</string>
+    <string name="no_internet_message">Unable to connect to the internet. Please check your internet connection</string>
+    <string name="unknown_error">An unknown error occurred. Please try again</string>
+    <string name="sign_out">Sign Out</string>
 </resources>
