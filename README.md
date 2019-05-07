@@ -1,3 +1,5 @@
+> Note - We were not able to complete the project during the hackathon :)
+
 ### Challenge for Microsoft's codefundo++: To predict or manage natural disasters.
 
 # Mahabali
