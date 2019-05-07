@@ -1,4 +1,4 @@
-> Note - We were not able to complete the project during the hackathon :)
+> Note - We were not able to complete the project during the hackathon and this is incomplete with bugs :)
 
 ### Challenge for Microsoft's codefundo++: To predict or manage natural disasters.
 
